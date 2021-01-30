@@ -52,6 +52,15 @@ los archivos jar necesarios, puede incluir los archivos jar usando pom.xml o des
 
 `mvn exec:java -Dexec.mainClass="com.example.Main" [-Dexec.args="argument1"]"`
 
+## HACER EL ESQUELETO DE LA APLICACION
+
+### ¿Cuál(les) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+
++ ***Sin parámetros***  nos dice que requerimos de un parámetro de tipo *RegularShapeType*.
++ ***Parámetro:qwerty***  nos dice que 'qwerty' no es un *RegularShapeType* válido.
++ ***Parámetro:pentagon***  nos dice que 'pentagon' no es un *RegularShapeType* válido.
++ ***Parámetro:Hexagon***  nos dice que se creo un 'Hexagon' de 6 lados exitosamente.
+
 
 
 
