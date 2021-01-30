@@ -50,7 +50,7 @@ los archivos jar necesarios, puede incluir los archivos jar usando pom.xml o des
 
 ### Ejecución en maven:
 
-`mvn exec:exec -Dexec.executable="maven" [-Dexec.workingdir="/tmp"] -Dexec.args="-X myproject:dist"`
+`mvn exec:java -Dexec.mainClass="com.example.Main" [-Dexec.args="argument1"]"`
 
 
 
