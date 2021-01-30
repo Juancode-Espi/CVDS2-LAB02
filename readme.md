@@ -43,12 +43,12 @@ los archivos jar necesarios, puede incluir los archivos jar usando pom.xml o des
 ## COMPILAR Y EJECUTAR:
 
 
-# Objetivo del parámetro 'package':
+### Objetivo del parámetro 'package':
 
 ** parámetro package:** construye el proyecto y empaqueta el JAR resultante dentro del directorio *target*\
 `mvn package -Dmaven.test.skip=true` este comando hace lo mismo que `mvn package` con diferencia que omite las pruebas de unidad.
 
-# Ejecución en maven:
+### Ejecución en maven:
 
 `mvn exec:exec -Dexec.executable="maven" [-Dexec.workingdir="/tmp"] -Dexec.args="-X myproject:dist"`
 
